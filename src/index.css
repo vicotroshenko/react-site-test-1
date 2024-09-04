@@ -1,13 +1,9 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("./assets/font/Darker_Grotesque/stylesheet.css"); /*DarkerGrotesque*/
+@import url("./assets/font/mustica_pro/stylesheet.css"); /*MusticaPro*/
+@import url("./assets/font/Syne/stylesheet.css"); /*Syne*/
+@import url("./assets/font/transforma_mix/stylesheet.css"); /*TransformaMix*/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: Syne;
+  margin: 0;
 }
