@@ -30,16 +30,13 @@
   }
 }
 
-.title_container {
-  text-align: left;
-  font-weight: 600;
-  line-height: 1;
-}
-
 .title_container > h1 {
   margin-bottom: 24px;
   font-size: 48px;
-  font-family: 'TransformaMix', sans-serif;
+  font-family: 'Transforma Mix', sans-serif;
+  text-align: left;
+  font-weight: 600;
+  line-height: 1;
   @media screen and (min-width: 1440px) {
     margin-bottom: 28px;
     font-size: 120px;
@@ -50,4 +47,6 @@
   font-size: 22px;
   font-family: 'MusticaPro', sans-serif;
   line-height: 1.2727;
+  text-align: left;
+  font-weight: 600;
 }
