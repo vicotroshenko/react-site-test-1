@@ -6,7 +6,7 @@
 @import url('./assets/font/Syne/stylesheet.css');
 /*Syne*/
 @import url('./assets/font/transforma_mix/stylesheet.css');
-/*TransformaMix*/
+/*Transforma Mix*/
 
 body {
   font-family: 'MusticaPro', sans-serif;
@@ -15,7 +15,6 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1;
-  background-color: #ff0000;
 }
 
 *,
