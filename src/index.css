@@ -1,8 +1,8 @@
+@import "normalize.css/opinionated.css";
 @import url("./assets/font/Darker_Grotesque/stylesheet.css"); /*DarkerGrotesque*/
 @import url("./assets/font/mustica_pro/stylesheet.css"); /*MusticaPro*/
 @import url("./assets/font/Syne/stylesheet.css"); /*Syne*/
 @import url("./assets/font/transforma_mix/stylesheet.css"); /*TransformaMix*/
-
 body {
   font-family: Syne;
   margin: 0;
