@@ -1,12 +1,14 @@
 import React from 'react';
 
+import About from '../About/About.component';
 import Hero from '../Hero/Hero.component';
 
 function App() {
   return (
-    <div>
+    <main>
       <Hero />
-    </div>
+      <About />
+    </main>
   );
 }
 
