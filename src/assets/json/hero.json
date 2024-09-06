@@ -6,15 +6,15 @@
   "nav": [
     {
       "name": "про нас",
-      "anchor": "about"
+      "anchor": "ABOUT"
     },
     {
       "name": "кейси",
-      "anchor": "cases"
+      "anchor": "CASES"
     },
     {
       "name": "контакти",
-      "anchor": "contacts"
+      "anchor": "CONTACTS"
     }
   ]
 }

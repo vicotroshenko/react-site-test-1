@@ -1,0 +1,24 @@
+.links_container {
+  width: 100%;
+  min-width: 254px;
+  margin-top: 40px;
+  @media screen and (min-width: 1440px) {
+    margin-top: 0;
+  }
+}
+
+.links_container > h4 {
+  font-size: var(--text-size-2);
+  font-family: 'Transforma Mix', sans-serif;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.links_container > ul {
+  margin-top: 6px;
+  color: var(--gray-color-1);
+  font-size: var(--text-size-1);
+  font-family: 'MusticaPro', sans-serif;
+  font-weight: 600;
+  line-height: 1.625;
+}

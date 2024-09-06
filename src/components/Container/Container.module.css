@@ -30,14 +30,14 @@
   display: flex;
   align-items: center;
   column-gap: 24px;
-  color: #ff0000;
+  color: var(--red-color-1);
   text-transform: uppercase;
 }
 
 .title_container > h2 {
   margin-top: 24px;
-  color: #171313;
-  font-size: 28px;
+  color: var(--dark-color-1);
+  font-size: var(--text-size-5);
   text-align: left;
   font-family: 'MusticaPro', sans-serif;
   font-weight: 600;
@@ -45,7 +45,7 @@
 
   @media screen and (min-width: 1440px) {
     margin-top: 0;
-    font-size: 48px;
+    font-size: var(--text-size-9);
     max-width: 365px;
   }
 }
@@ -58,8 +58,8 @@
 
 .subtitle {
   margin-top: 24px;
-  color: #606060;
-  font-size: 16px;
+  color: var(--gray-color-1);
+  font-size: var(--text-size-1);
   text-align: left;
   font-family: 'DarkerGrotesque', sans-serif;
   font-weight: 500;
@@ -67,7 +67,7 @@
 
   @media screen and (min-width: 1440px) {
     margin-top: 0;
-    font-size: 20px;
+    font-size: var(--text-size-2);
     line-height: 1.35;
     max-width: 678px;
   }

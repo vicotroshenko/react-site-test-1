@@ -8,6 +8,28 @@
 @import url('./assets/font/transforma_mix/stylesheet.css');
 /*Transforma Mix*/
 
+:root {
+  --light-color-1: #f7f5f5;
+  --red-color-1: #e3000b;
+  --dark-color-1: #171313;
+  --gray-color-1: #606060;
+  --text-size-1: 16px;
+  --text-size-2: 20px;
+  --text-size-3: 22px;
+  --text-size-4: 24px;
+  --text-size-5: 28px;
+  --text-size-6: 32px;
+  --text-size-7: 34px;
+  --text-size-8: 40px;
+  --text-size-9: 48px;
+  --text-size-10: 68px;
+  --text-size-11: 120px;
+  --border-radius-1: 24px;
+  --border-radius-2: 40px;
+  --border-radius-3: 100px;
+  --border-radius-4: 50%;
+}
+
 body {
   font-family: 'MusticaPro', sans-serif;
   margin: 0;
