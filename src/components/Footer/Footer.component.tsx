@@ -1,9 +1,9 @@
 import React from 'react';
 
+import { footer as contains } from '../../assets/data';
 import { ReactComponent as FacebookIcon } from '../../assets/images/svg/Facebook.svg';
 import { ReactComponent as InstagramIcon } from '../../assets/images/svg/Instagram.svg';
 import { ReactComponent as LinkedinIcon } from '../../assets/images/svg/LinkedIn.svg';
-import contains from '../../assets/json/footer.json';
 import styles from './Footer.module.css';
 import LinkItem from './LinkItem/LinkItem.component';
 

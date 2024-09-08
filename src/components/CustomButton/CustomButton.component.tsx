@@ -1,14 +1,8 @@
 import clsx from 'clsx';
 import React from 'react';
 
+import ButtonsStyle from '../../constants/button-style.constant';
 import styles from './CustomButton.module.css';
-
-enum ButtonsStyle {
-  PRIMARY = 'primary',
-  MOBILE = 'mobile',
-  SLIDER_LEFT = 'slider_left',
-  SLIDER_RIGHT = 'slider_right',
-}
 
 interface CustomButtonProps
   extends Omit<

@@ -1,0 +1,7 @@
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  height: var(--scroll-bar-height);
+}
+
+.swiper-scrollbar-drag {
+  background-color: var(--red-color-1);
+}

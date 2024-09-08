@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 
 import { ReactComponent as BurgerMenuIcon } from '../../../assets/images/svg/burger.svg';
+import { ButtonsStyle } from '../../../constants';
 import CustomButton from '../../CustomButton/CustomButton.component';
 import styles from './Header.module.css';
 
@@ -26,7 +27,7 @@ const Header: React.FC<HeaderProps> = memo(({ nav, logo, buttonName }) => {
         </ul>
       </nav>
       <CustomButton
-        variant="MOBILE"
+        variant={ButtonsStyle.mobile}
         aria-label="open mobile menu navigation"
       >
         <BurgerMenuIcon />
@@ -38,7 +39,7 @@ const Header: React.FC<HeaderProps> = memo(({ nav, logo, buttonName }) => {
         {logo}
       </a>
       <div className={styles.primary_btn}>
-        <CustomButton variant="PRIMARY">{buttonName}</CustomButton>
+        <CustomButton variant={ButtonsStyle.primary}>{buttonName}</CustomButton>
       </div>
     </header>
   );
