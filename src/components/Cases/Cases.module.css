@@ -1,0 +1,9 @@
+.slider {
+  padding-bottom: calc(12px + var(--scroll-bar-height));
+}
+
+@media screen and (min-width: 1440px) {
+  .slider {
+    padding-bottom: calc(36px + var(--scroll-bar-height));
+  }
+}

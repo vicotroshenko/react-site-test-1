@@ -1,6 +1,6 @@
 import React from 'react';
 
-import contains from '../../assets/json/hero.json';
+import { hero as contains } from '../../assets/data';
 import Header from './Header/Header.component';
 import styles from './Hero.module.css';
 

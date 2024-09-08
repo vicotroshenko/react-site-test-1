@@ -2,9 +2,6 @@
   width: 100%;
   padding: 10px 10px 0 10px;
   color: var(--light-color-1);
-  @media screen and (min-width: 1440px) {
-    padding: 20px 20px 0 20px;
-  }
 }
 
 .container {
@@ -23,11 +20,6 @@
   background-repeat: no-repeat;
   background-position: 60% 50%;
   background-size: cover;
-  @media screen and (min-width: 1440px) {
-    height: calc(100vh - 28px);
-    padding: 28px 28px 40px 28px;
-    background-position: center;
-  }
 }
 
 .title_container > h1 {
@@ -37,10 +29,6 @@
   text-align: left;
   font-weight: 600;
   line-height: 1;
-  @media screen and (min-width: 1440px) {
-    margin-bottom: 28px;
-    font-size: var(--text-size-11);
-  }
 }
 
 .title_container > p {
@@ -49,4 +37,21 @@
   line-height: 1.2727;
   text-align: left;
   font-weight: 600;
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    padding: 20px 20px 0 20px;
+  }
+
+  .container {
+    height: calc(100vh - 28px);
+    padding: 28px 28px 40px 28px;
+    background-position: center;
+  }
+
+  .title_container > h1 {
+    margin-bottom: 28px;
+    font-size: var(--text-size-11);
+  }
 }

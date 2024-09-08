@@ -52,11 +52,9 @@
   border: none;
   border-radius: var(--border-radius-4);
   padding: 7px;
+  width: 100%;
   max-width: 60px;
   border-radius: var(--border-radius-4);
-  @media screen and (min-width: 1440px) {
-    display: none;
-  }
 }
 
 .mobile > svg {
@@ -66,8 +64,12 @@
 
 .slider_left {
   composes: button;
-  padding: 14px;
-  max-width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
   border-radius: var(--border-radius-4);
 }
 
@@ -77,7 +79,31 @@
 
 .slider_right {
   composes: button;
-  padding: 14px;
-  max-width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
   border-radius: var(--border-radius-4);
+}
+
+.slider_right > svg {
+  transition: all 0.15s linear;
+}
+
+.slider_right:active > svg {
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 1440px) {
+  .mobile {
+    display: none;
+  }
+
+  .slider_left,
+  .slider_right {
+    max-width: 60px;
+    height: 60px;
+  }
 }

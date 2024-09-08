@@ -1,9 +1,8 @@
 import React from 'react';
 
-import aboutImage1 from '../../assets/images/jpg/about-desctop.jpg';
-import aboutImage2 from '../../assets/images/png/employee.png';
-import contains from '../../assets/json/about.json';
+import { about as contains } from '../../assets/data';
 import Container from '../Container/Container.component';
+import Image from '../Image/Image.component';
 import styles from './About.module.css';
 import AboutItem from './AboutItem/AboutItem.component';
 
@@ -17,9 +16,12 @@ const About = () => {
     >
       <ul className={styles.about_list}>
         <li>
-          <img
-            src={aboutImage1}
-            alt="keyboard and mouse"
+          <Image
+            desktopImage={contains.images.image1}
+            desktopImage2x={contains.images.image1_2x}
+            mobileImage={contains.images.image1}
+            mobileImage2x={contains.images.image1_2x}
+            alt="keyboard"
           />
         </li>
         {contains.statistic.map((item) => (
@@ -30,8 +32,11 @@ const About = () => {
           />
         ))}
         <li style={{ background: 'red' }}>
-          <img
-            src={aboutImage2}
+          <Image
+            desktopImage={contains.images.image2}
+            desktopImage2x={contains.images.image2_2x}
+            mobileImage={contains.images.image2}
+            mobileImage2x={contains.images.image2_2x}
             alt="employee"
           />
         </li>

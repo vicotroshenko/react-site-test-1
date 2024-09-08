@@ -2,9 +2,6 @@
   width: 100%;
   min-width: 254px;
   margin-top: 40px;
-  @media screen and (min-width: 1440px) {
-    margin-top: 0;
-  }
 }
 
 .links_container > h4 {
@@ -21,4 +18,10 @@
   font-family: 'MusticaPro', sans-serif;
   font-weight: 600;
   line-height: 1.625;
+}
+
+@media screen and (min-width: 1440px) {
+  .links_container {
+    margin-top: 0;
+  }
 }
