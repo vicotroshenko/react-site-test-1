@@ -2,7 +2,7 @@
   width: 100%;
   background-color: var(--dark-color-1);
   color: var(--light-color-1);
-  margin-top: 34px;
+  margin-top: 40px;
 }
 
 .container {
@@ -79,6 +79,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .footer {
+    margin-top: 54px;
+  }
+
   .container {
     max-width: none;
     padding: 61px 100px 41px 100px;
@@ -88,12 +92,14 @@
     display: flex;
     justify-content: space-between;
   }
+
   .links_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
   }
+
   .footer_bottom {
     justify-content: space-between;
     padding: 60px 10px 60px 10px;

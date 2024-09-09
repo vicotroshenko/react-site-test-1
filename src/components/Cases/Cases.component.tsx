@@ -5,7 +5,7 @@ import { Scrollbar } from 'swiper/modules';
 import { Swiper, SwiperClass, SwiperSlide } from 'swiper/react';
 
 import { cases as contains } from '../../assets/data';
-import { SwiperButton } from '../../constants';
+import { Id, SwiperButton } from '../../constants';
 import Container from '../Container/Container.component';
 import styles from './Cases.module.css';
 import './CustomScrollbar.css';
@@ -23,7 +23,7 @@ const Cases = () => {
       name={contains.name}
       title={contains.title}
       subtitle={contains.text}
-      id="CASES"
+      id={Id.CASES}
     >
       <div>
         <Swiper
@@ -35,7 +35,6 @@ const Cases = () => {
           modules={[Scrollbar]}
           onSwiper={(swiper: SwiperClass) => setSwiper(swiper)}
           wrapperTag="ul"
-          allowTouchMove={false}
           className={styles.slider}
         >
           {contains.cards.map((card, index) => (

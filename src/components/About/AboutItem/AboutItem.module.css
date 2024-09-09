@@ -1,10 +1,9 @@
 .item {
   width: 100%;
-  max-width: 170px;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   row-gap: 8px;
   border-radius: var(--border-radius-1);

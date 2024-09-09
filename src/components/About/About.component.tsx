@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { about as contains } from '../../assets/data';
+import { Id } from '../../constants';
 import Container from '../Container/Container.component';
 import Image from '../Image/Image.component';
 import styles from './About.module.css';
@@ -9,7 +10,7 @@ import AboutItem from './AboutItem/AboutItem.component';
 const About = () => {
   return (
     <Container
-      id="ABOUT"
+      id={Id.ABOUT}
       name={contains.name}
       title={contains.title}
       subtitle={contains.text}
@@ -31,7 +32,7 @@ const About = () => {
             key={item.number}
           />
         ))}
-        <li style={{ background: 'red' }}>
+        <li>
           <Image
             desktopImage={contains.images.image2}
             desktopImage2x={contains.images.image2_2x}

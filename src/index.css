@@ -1,12 +1,4 @@
 @import 'normalize.css/opinionated.css';
-@import url('./assets/font/Darker_Grotesque/stylesheet.css');
-/*DarkerGrotesque*/
-@import url('./assets/font/mustica_pro/stylesheet.css');
-/*MusticaPro*/
-@import url('./assets/font/Syne/stylesheet.css');
-/*Syne*/
-@import url('./assets/font/transforma_mix/stylesheet.css');
-/*Transforma Mix*/
 
 :root {
   --light-color-1: #f7f5f5;
@@ -24,11 +16,18 @@
   --text-size-9: 48px;
   --text-size-10: 68px;
   --text-size-11: 120px;
+  --text-size-12: 60px;
   --border-radius-1: 24px;
   --border-radius-2: 40px;
   --border-radius-3: 100px;
   --border-radius-4: 50%;
-  --scroll-bar-height: 24px;
+  --scroll-bar-height: 20px;
+}
+
+@font-face {
+  font-family: 'Transforma Mix';
+  src: url('./assets/font/transforma_mix/TransformaMix-Variable.ttf');
+  font-weight: 600;
 }
 
 html {
@@ -69,7 +68,7 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 

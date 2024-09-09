@@ -51,10 +51,11 @@
   display: block;
   border: none;
   border-radius: var(--border-radius-4);
-  padding: 7px;
   width: 100%;
-  max-width: 60px;
+  max-width: 32px;
+  height: 32px;
   border-radius: var(--border-radius-4);
+  letter-spacing: 0.5px;
 }
 
 .mobile > svg {
