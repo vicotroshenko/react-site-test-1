@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-site-test-1/static/css/main.f7fb3810.css",
+    "main.css": "/react-site-test-1/static/css/main.769831b6.css",
     "main.js": "/react-site-test-1/static/js/main.3ff76d4f.js",
     "static/js/453.5e4146fb.chunk.js": "/react-site-test-1/static/js/453.5e4146fb.chunk.js",
     "static/media/MusticaPro-SemiBold.otf": "/react-site-test-1/static/media/MusticaPro-SemiBold.b1a800b42a1c7df2493c.otf",
@@ -43,12 +43,12 @@
     "static/media/Facebook.svg": "/react-site-test-1/static/media/Facebook.606a99f891867fbe458a98ea996900bf.svg",
     "static/media/arrow.svg": "/react-site-test-1/static/media/arrow.c6694b9da7431c27d120868cad03e4e2.svg",
     "static/media/cross.svg": "/react-site-test-1/static/media/cross.254ea35aa175bddb1aa6d008d8f98571.svg",
-    "main.f7fb3810.css.map": "/react-site-test-1/static/css/main.f7fb3810.css.map",
+    "main.769831b6.css.map": "/react-site-test-1/static/css/main.769831b6.css.map",
     "main.3ff76d4f.js.map": "/react-site-test-1/static/js/main.3ff76d4f.js.map",
     "453.5e4146fb.chunk.js.map": "/react-site-test-1/static/js/453.5e4146fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7fb3810.css",
+    "static/css/main.769831b6.css",
     "static/js/main.3ff76d4f.js"
   ]
 }
