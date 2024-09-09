@@ -1,6 +1,7 @@
 .hero {
   width: 100%;
-  padding: 10px 10px 0 10px;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
   color: var(--light-color-1);
 }
 
@@ -15,7 +16,7 @@
   background-color: var(--light-color-1);
   margin: 0 auto;
   padding: 40px 20px 60px 20px;
-  height: calc(100vh - 40px);
+  min-height: 740px;
   background-image: url('../../assets/images/jpg/hero-desctop.jpg');
   background-repeat: no-repeat;
   background-position: 60% 50%;
