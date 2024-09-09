@@ -26,6 +26,7 @@ const SwiperCard: React.FC<CardProps> = ({ cards, onChangeSlideClick }) => {
           variant={ButtonsStyle.slider_left}
           name={SwiperButton.PREV}
           onClick={onChangeSlideClick}
+          aria-label="open previous slide"
         >
           <ArrowIcon />
         </CustomButton>
@@ -33,6 +34,7 @@ const SwiperCard: React.FC<CardProps> = ({ cards, onChangeSlideClick }) => {
           variant={ButtonsStyle.slider_right}
           name={SwiperButton.NEXT}
           onClick={onChangeSlideClick}
+          aria-label="open next slide"
         >
           <ArrowIcon />
         </CustomButton>

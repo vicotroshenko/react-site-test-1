@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 import Image from '../../Image/Image.component';
 import styles from './CardImage.module.css';
@@ -8,7 +8,7 @@ interface CardImageProps {
   image2x: string;
   alt: string;
 }
-const CardImage: React.FC<CardImageProps> = ({ image, image2x, alt }) => {
+const CardImage: React.FC<CardImageProps> = memo(({ image, image2x, alt }) => {
   return (
     <div className={styles.card}>
       <Image
@@ -20,6 +20,6 @@ const CardImage: React.FC<CardImageProps> = ({ image, image2x, alt }) => {
       />
     </div>
   );
-};
+});
 
 export default CardImage;

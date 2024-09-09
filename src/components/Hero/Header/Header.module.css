@@ -37,6 +37,7 @@
   }
 
   .logo_link {
+    font-size: var(--text-size-12);
     transform: translate(0);
   }
 

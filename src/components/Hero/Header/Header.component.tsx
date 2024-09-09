@@ -39,6 +39,7 @@ const Header: React.FC<HeaderProps> = memo(({ nav, logo, buttonName }) => {
       <a
         href="/"
         className={styles.logo_link}
+        aria-label="to home page"
       >
         {logo}
       </a>

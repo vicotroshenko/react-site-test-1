@@ -23,12 +23,17 @@ const MobileMenu: React.FC<MobileMenuProps> = memo(
       >
         <div className={styles.mobile_menu_container}>
           <div className={styles.button_logo_wrapper}>
-            <CustomButton variant="mobile" onClick={toggle}>
+            <CustomButton
+              variant="mobile"
+              onClick={toggle}
+              aria-label="close mobile menu"
+            >
               <CrossIcon />
             </CustomButton>
             <a
               href="/"
               className={styles.logo}
+              aria-label="to home page"
             >
               {logo}
             </a>

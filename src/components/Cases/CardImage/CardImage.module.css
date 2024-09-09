@@ -1,8 +1,7 @@
 .card {
-  width: 314px;
-  height: 210px;
+  width: 250px;
   perspective: 500px;
-  transform: translate(0px, 35px);
+  transform: translate(0px, 76px);
 }
 
 .card > picture {
@@ -14,7 +13,7 @@
 
 @media screen and (min-width: 1440px) {
   .card {
-    transform: translate(20px, 165px);
+    transform: translate(20px, 85px);
     width: 515px;
     height: 486px;
   }

@@ -4,6 +4,7 @@ import { footer as contains } from '../../assets/data';
 import { ReactComponent as FacebookIcon } from '../../assets/images/svg/Facebook.svg';
 import { ReactComponent as InstagramIcon } from '../../assets/images/svg/Instagram.svg';
 import { ReactComponent as LinkedinIcon } from '../../assets/images/svg/LinkedIn.svg';
+import { Id } from '../../constants';
 import styles from './Footer.module.css';
 import LinkItem from './LinkItem/LinkItem.component';
 
@@ -31,7 +32,7 @@ const Footer = () => {
   return (
     <footer
       className={styles.footer}
-      id="CONTACTS"
+      id={Id.CONTACTS}
     >
       <div className={styles.container}>
         <div className={styles.footer_top}>
@@ -53,6 +54,7 @@ const Footer = () => {
                     className={styles.link}
                     target="_blank"
                     rel="noopener noreferrer nofollow"
+                    aria-label="to the map"
                   >
                     {link}
                   </a>
@@ -65,6 +67,7 @@ const Footer = () => {
                   <a
                     href={`tel:${link}`}
                     className={styles.link}
+                    aria-label="phone number"
                   >
                     {link}
                   </a>
@@ -94,6 +97,7 @@ const Footer = () => {
               href="https://www.linkedin.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
+              aria-label="to linkedin site"
             >
               <LinkedinIcon />
             </a>
@@ -101,6 +105,7 @@ const Footer = () => {
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
+              aria-label="to instagram site"
             >
               <InstagramIcon />
             </a>
@@ -108,6 +113,7 @@ const Footer = () => {
               href="https://www.facebook.com/"
               target="_blank"
               rel="noopener noreferrer nofollow"
+              aria-label="to facebook site"
             >
               <FacebookIcon />
             </a>
