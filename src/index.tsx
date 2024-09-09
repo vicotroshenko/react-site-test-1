@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import App from './components/App/App';
+import './assets/font/Darker_Grotesque/stylesheet.css';
+import './assets/font/mustica_pro/stylesheet.css';
+import './assets/font/Syne/stylesheet.css';
+import './assets/font/transforma_mix/stylesheet.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 

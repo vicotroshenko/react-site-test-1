@@ -23,7 +23,7 @@ const MobileMenu: React.FC<MobileMenuProps> = memo(
       >
         <div className={styles.mobile_menu_container}>
           <div className={styles.button_logo_wrapper}>
-            <CustomButton variant="mobile">
+            <CustomButton variant="mobile" onClick={toggle}>
               <CrossIcon />
             </CustomButton>
             <a

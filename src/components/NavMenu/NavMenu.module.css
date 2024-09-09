@@ -32,6 +32,12 @@
   color: var(--light-color-1);
 }
 
+.nav.isMobile .item > a:hover,
+.nav.isMobile .item > a:focus {
+  color: var(--dark-color-1);
+  font-weight: 600;
+}
+
 @media screen and (min-width: 1440px) {
   .nav {
     display: block;

@@ -19,11 +19,19 @@
   display: flex;
   align-items: center;
   column-gap: 24px;
-  color: var(--red-color-1);
-  text-transform: uppercase;
 }
 
-.title_container > h2 {
+.section_name>h3 {
+  color: var(--red-color-1);
+  text-transform: uppercase;
+  font-family: "Transforma Mix", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  font-weight: 1.5;
+  letter-spacing: .5px;
+}
+
+.title_container>h2 {
   margin-top: 24px;
   color: var(--dark-color-1);
   font-size: var(--text-size-5);
@@ -54,12 +62,14 @@
     align-items: flex-start;
     padding: 80px 61px 80px 40px;
   }
-  .title_container > h2 {
+
+  .title_container>h2 {
     margin-top: 0;
     font-size: var(--text-size-9);
     max-width: 365px;
   }
-  .title_container > .title_about {
+
+  .title_container>.title_about {
     max-width: 565px;
   }
 

@@ -21,12 +21,18 @@ const Modal: React.FC<IModal> = memo(({ visible, children, toggle }) => {
     }
   }, [visible]);
 
+  const onBackdropClick = (event: React.MouseEvent) => {
+    if (event.currentTarget === event.target) {
+      toggle();
+    }
+  };
+
   return createPortal(
     <div
       className={clsx(styles.backdrop, {
         [styles.isOpen]: visible,
       })}
-      onClick={toggle}
+      onClick={onBackdropClick}
     >
       <div className={styles.modal_container}>{children}</div>
     </div>,

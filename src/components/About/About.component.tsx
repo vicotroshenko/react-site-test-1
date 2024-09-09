@@ -31,7 +31,7 @@ const About = () => {
             key={item.number}
           />
         ))}
-        <li style={{ background: 'red' }}>
+        <li>
           <Image
             desktopImage={contains.images.image2}
             desktopImage2x={contains.images.image2_2x}
