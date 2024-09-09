@@ -20,6 +20,10 @@
   row-gap: 24px;
 }
 
+.item {
+  width: fit-content;
+}
+
 .item > a {
   color: inherit;
   text-decoration: none;

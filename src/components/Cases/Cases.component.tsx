@@ -35,7 +35,6 @@ const Cases = () => {
           modules={[Scrollbar]}
           onSwiper={(swiper: SwiperClass) => setSwiper(swiper)}
           wrapperTag="ul"
-          allowTouchMove={false}
           className={styles.slider}
         >
           {contains.cards.map((card, index) => (

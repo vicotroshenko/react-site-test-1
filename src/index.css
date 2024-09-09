@@ -24,6 +24,12 @@
   --scroll-bar-height: 20px;
 }
 
+@font-face {
+  font-family: 'Transforma Mix';
+  src: url('./assets/font/transforma_mix/TransformaMix-Variable.ttf');
+  font-weight: 600;
+}
+
 html {
   scroll-behavior: smooth;
 }

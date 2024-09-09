@@ -8,9 +8,10 @@ interface NavMenuProps {
     [x: string]: string;
   }[];
   isMobile: boolean;
+  toggle?: () => void;
 }
 
-const NavMenu: React.FC<NavMenuProps> = memo(({ links, isMobile }) => {
+const NavMenu: React.FC<NavMenuProps> = memo(({ links, isMobile, toggle }) => {
   return (
     <nav
       className={clsx(styles.nav, {
@@ -22,8 +23,14 @@ const NavMenu: React.FC<NavMenuProps> = memo(({ links, isMobile }) => {
           <li
             key={link.anchor}
             className={styles.item}
+            onClick={toggle}
           >
-            <a href={`#${link.anchor}`}>{link.name}</a>
+            <a
+              href={`#${link.anchor}`}
+              aria-label="anchor"
+            >
+              {link.name}
+            </a>
           </li>
         ))}
       </ul>

@@ -41,6 +41,7 @@ const MobileMenu: React.FC<MobileMenuProps> = memo(
           <NavMenu
             links={links}
             isMobile={true}
+            toggle={toggle}
           />
         </div>
       </Modal>
