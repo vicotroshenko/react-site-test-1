@@ -2,8 +2,15 @@
   padding-bottom: calc(12px + var(--scroll-bar-height));
 }
 
+.swiper_wrapper {
+  padding: 0 10px 0 10px;
+}
 @media screen and (min-width: 1440px) {
   .slider {
     padding-bottom: calc(36px + var(--scroll-bar-height));
+  }
+
+  .swiper_wrapper {
+    padding: 0;
   }
 }

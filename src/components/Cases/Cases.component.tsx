@@ -25,10 +25,10 @@ const Cases = () => {
       subtitle={contains.text}
       id={Id.CASES}
     >
-      <div>
+      <div className={styles.swiper_wrapper}>
         <Swiper
           spaceBetween={24}
-          slidesPerView={1.1}
+          slidesPerView={1.09}
           scrollbar={{
             draggable: true,
           }}
