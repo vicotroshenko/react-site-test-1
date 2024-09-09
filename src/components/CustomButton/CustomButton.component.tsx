@@ -13,20 +13,18 @@ interface CustomButtonProps
   variant: keyof typeof ButtonsStyle;
 }
 
-const CustomButton: React.FC<CustomButtonProps> = memo(({
-  children,
-  variant,
-  ...props
-}) => {
-  return (
-    <button
-      type="button"
-      {...props}
-      className={clsx(styles[ButtonsStyle[variant]])}
-    >
-      {children}
-    </button>
-  );
-});
+const CustomButton: React.FC<CustomButtonProps> = memo(
+  ({ children, variant, ...props }) => {
+    return (
+      <button
+        type="button"
+        {...props}
+        className={clsx(styles[ButtonsStyle[variant]])}
+      >
+        {children}
+      </button>
+    );
+  }
+);
 
 export default CustomButton;

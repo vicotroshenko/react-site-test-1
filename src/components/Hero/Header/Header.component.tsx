@@ -3,9 +3,9 @@ import React, { memo, useState } from 'react';
 import { ReactComponent as BurgerMenuIcon } from '../../../assets/images/svg/burger.svg';
 import { ButtonsStyle } from '../../../constants';
 import CustomButton from '../../CustomButton/CustomButton.component';
+import MobileMenu from '../../MobileMenu/MobileMenu.component';
 import NavMenu from '../../NavMenu/NavMenu.component';
 import styles from './Header.module.css';
-import MobileMenu from '../../MobileMenu/MobileMenu.component';
 
 interface HeaderProps {
   nav: { [x: string]: string }[];
@@ -19,7 +19,12 @@ const Header: React.FC<HeaderProps> = memo(({ nav, logo, buttonName }) => {
   const toggleModal = () => setVisible((prev) => !prev);
   return (
     <header className={styles.header}>
-      <MobileMenu visible={visible} toggle={toggleModal} links={nav} logo={logo}/>
+      <MobileMenu
+        visible={visible}
+        toggle={toggleModal}
+        links={nav}
+        logo={logo}
+      />
       <NavMenu
         links={nav}
         isMobile={false}
