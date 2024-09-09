@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-site-test-1/static/css/main.01917830.css",
-    "main.js": "/react-site-test-1/static/js/main.a40ff4c3.js",
+    "main.css": "/react-site-test-1/static/css/main.f7fb3810.css",
+    "main.js": "/react-site-test-1/static/js/main.3ff76d4f.js",
     "static/js/453.5e4146fb.chunk.js": "/react-site-test-1/static/js/453.5e4146fb.chunk.js",
     "static/media/MusticaPro-SemiBold.otf": "/react-site-test-1/static/media/MusticaPro-SemiBold.b1a800b42a1c7df2493c.otf",
     "static/media/about_desctop_2_2x.png": "/react-site-test-1/static/media/about_desctop_2_2x.544fbc9e947cfd2d404b.png",
@@ -42,13 +42,13 @@
     "static/media/burger.svg": "/react-site-test-1/static/media/burger.ac2186ff9d975386dd058c2da5dadbaf.svg",
     "static/media/Facebook.svg": "/react-site-test-1/static/media/Facebook.606a99f891867fbe458a98ea996900bf.svg",
     "static/media/arrow.svg": "/react-site-test-1/static/media/arrow.c6694b9da7431c27d120868cad03e4e2.svg",
-    "static/media/cross.svg": "/react-site-test-1/static/media/cross.2d05aceaa2cdc011f3f05bab53f3ef47.svg",
-    "main.01917830.css.map": "/react-site-test-1/static/css/main.01917830.css.map",
-    "main.a40ff4c3.js.map": "/react-site-test-1/static/js/main.a40ff4c3.js.map",
+    "static/media/cross.svg": "/react-site-test-1/static/media/cross.254ea35aa175bddb1aa6d008d8f98571.svg",
+    "main.f7fb3810.css.map": "/react-site-test-1/static/css/main.f7fb3810.css.map",
+    "main.3ff76d4f.js.map": "/react-site-test-1/static/js/main.3ff76d4f.js.map",
     "453.5e4146fb.chunk.js.map": "/react-site-test-1/static/js/453.5e4146fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01917830.css",
-    "static/js/main.a40ff4c3.js"
+    "static/css/main.f7fb3810.css",
+    "static/js/main.3ff76d4f.js"
   ]
 }
