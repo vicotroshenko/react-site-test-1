@@ -1,9 +1,11 @@
-import React, { memo } from 'react';
+import React, { memo, useState } from 'react';
 
 import { ReactComponent as BurgerMenuIcon } from '../../../assets/images/svg/burger.svg';
 import { ButtonsStyle } from '../../../constants';
 import CustomButton from '../../CustomButton/CustomButton.component';
+import NavMenu from '../../NavMenu/NavMenu.component';
 import styles from './Header.module.css';
+import MobileMenu from '../../MobileMenu/MobileMenu.component';
 
 interface HeaderProps {
   nav: { [x: string]: string }[];
@@ -12,23 +14,20 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = memo(({ nav, logo, buttonName }) => {
+  const [visible, setVisible] = useState<boolean>(false);
+
+  const toggleModal = () => setVisible((prev) => !prev);
   return (
     <header className={styles.header}>
-      <nav className={styles.nav}>
-        <ul>
-          {nav.map((link) => (
-            <li
-              key={link.anchor}
-              className={styles.item}
-            >
-              <a href={`#${link.anchor}`}>{link.name}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <MobileMenu visible={visible} toggle={toggleModal} links={nav} logo={logo}/>
+      <NavMenu
+        links={nav}
+        isMobile={false}
+      />
       <CustomButton
         variant={ButtonsStyle.mobile}
         aria-label="open mobile menu navigation"
+        onClick={toggleModal}
       >
         <BurgerMenuIcon />
       </CustomButton>

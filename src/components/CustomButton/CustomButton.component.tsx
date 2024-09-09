@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import React from 'react';
+import React, { memo } from 'react';
 
 import ButtonsStyle from '../../constants/button-style.constant';
 import styles from './CustomButton.module.css';
@@ -13,7 +13,7 @@ interface CustomButtonProps
   variant: keyof typeof ButtonsStyle;
 }
 
-const CustomButton: React.FC<CustomButtonProps> = ({
+const CustomButton: React.FC<CustomButtonProps> = memo(({
   children,
   variant,
   ...props
@@ -27,6 +27,6 @@ const CustomButton: React.FC<CustomButtonProps> = ({
       {children}
     </button>
   );
-};
+});
 
 export default CustomButton;
